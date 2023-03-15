@@ -84,8 +84,13 @@
 
 				setTimeout(function(){
 					window.location.assign('page1.html');
+                    $('.alerts').addClass('hide');
+					$('.alerts').removeClass('show');
 				},2000);
-			
+				});
+                $('.btns').click(function(){
+				$('.alerts').addClass('hide');
+				$('.alerts').removeClass('show');
 				});
             }
             else if (user == "" || pass == "") {
