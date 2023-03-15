@@ -1,1 +1,1 @@
-# ForSammy.com
+# ForSammy.github.io
