@@ -77,7 +77,7 @@
             var pass = document.getElementById("pass").value;
 
             if (user == "Happy Birthday" && pass == "270549") {
-				$('.log').click(function(){
+
 				$('.alerts').removeClass('hide');
 				$('.alerts').addClass('show');
 				$('.alerts').addClass('showall');
@@ -86,9 +86,8 @@
 					window.location.assign('page1.html');
                     $('.alerts').addClass('hide');
 					$('.alerts').removeClass('show');
-					window.location.assign('index.html').reload;
 				},2000);
-				});
+
                 $('.btns').click(function(){
 				$('.alerts').addClass('hide');
 				$('.alerts').removeClass('show');
