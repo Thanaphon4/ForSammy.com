@@ -11,7 +11,7 @@
 <body>
     <audio id="myAudio" autoplay loop src="hbdpia.mp3"></audio>
     
-    <button id="bll" class="bll" onclick="removeElement()"></button>
+    <button id="bll" class="bll" onclick="removeElement()"><div class="cl">Click</div></button>
 
     <div class="card">
         <div class="heart"></div>
@@ -47,6 +47,14 @@
     <script>
         function removeElement() {
             document.getElementById("bll").style.display = "none";
+        }
+    </script>
+    
+     <script>
+        function removeElement() {
+            setTimeout(function(){
+                document.getElementById("bll").style.display = "none";
+            },2000);
         }
     </script>
 </body>
