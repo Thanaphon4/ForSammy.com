@@ -195,4 +195,27 @@ h2 {
     background-color: transparent;
     opacity: 1;
     backdrop-filter: blur(29px);
+    color: greenyellow;
+    letter-spacing: 15px;
+    font-size: 120px;
+    font-family: Arial;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    box-shadow: inset 10px 50px 500px 150px black;
+}
+
+.bll:active {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.cl {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    padding: 0 20px;
 }
