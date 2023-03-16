@@ -10,6 +10,8 @@
 </head>
 <body>
     <audio id="myAudio" autoplay loop src="hbdpia.mp3"></audio>
+    
+    <button id="bll" class="bll" onclick="removeElement()"></button>
 
     <div class="card">
         <div class="heart"></div>
@@ -40,6 +42,12 @@
         var confettiSettings = { target: 'my-canvas' };
         var confetti = new ConfettiGenerator(confettiSettings);
         confetti.render();
+    </script>
+    
+    <script>
+        function removeElement() {
+            document.getElementById("bll").style.display = "none";
+        }
     </script>
 </body>
 </html>
