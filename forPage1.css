@@ -74,10 +74,13 @@ body {
     transform: rotateX(0deg);
     backface-visibility: hidden;
 
-    font-size: 32px;
-    font-weight: 800;
     padding-top: 60px;
     text-align: center;
+}
+
+#hap {
+    font-size: 32px;
+    font-weight: 800;
     letter-spacing: 4px;
     color: rgb(123, 4, 220);
 }
