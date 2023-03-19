@@ -34,6 +34,7 @@ body {
 }
 
 .card:hover {
+    transition-delay: 2s;
     transform: rotate(-5deg);
     transition: 1s;
 }
