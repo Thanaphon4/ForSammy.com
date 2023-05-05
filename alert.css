@@ -167,10 +167,6 @@ body {
     }
 }
 
-#x {
-    transform: rotate(45deg);
-}
-
 .ms2 {
     font-size: 22px;
     margin-left: 10px;
