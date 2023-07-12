@@ -57,11 +57,11 @@ body {
     z-index: 1;
     transform-origin: left;
     transition: 2s;
-    background: linear-gradient(to right, #e0e0e0, #ffffff 30%);
+    background: linear-gradient(to right, #e0e0e0, #ee6ffa 30%);
 }
 
 .inside {
-    background: linear-gradient(to right, #e0e0e0, #ffffff 30%);
+    background: linear-gradient(to right, #e0e0e0, #ee6ffa 30%);
     left: 50%;
     padding: 30px;
     text-align: center;
@@ -71,7 +71,7 @@ body {
 .title {
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ee6ffa;
     position: absolute;
     transform: rotateX(0deg);
     backface-visibility: hidden;
